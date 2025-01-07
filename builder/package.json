@@ -1,0 +1,22 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.722.0",
+    "@types/node": "^22.10.5",
+    "ioredis": "^5.4.2",
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "typescript": "^5.7.2"
+  }
+}
